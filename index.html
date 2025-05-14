@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Stay - Hotel Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #ffd700;
+        }
+
+        .hero {
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Luxury Stay Hotel</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#services">Services</a>
+        <a href="booking.html">Book Now</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Your Dream Getaway</h2>
+</section>
+
+<div class="content" id="about">
+    <h3>About Us</h3>
+    <p>Experience luxury and comfort at Luxury Stay Hotel. Located in the heart of the city, our hotel offers modern amenities and exceptional service.</p>
+</div>
+
+<div class="content" id="rooms">
+    <h3>Rooms & Suites</h3>
+  <div class="room-card">
+    <img src="images/room1.jpg" alt="Deluxe Room" style="width:100%; margin-bottom: 15px;">
+<h4>Deluxe Room</h4>
+            <p>Experience luxury with our Deluxe Room.</p>
+            <div class="rating">★★★★★ (4.8/5)</div>
+        </div>
+<br><br>
+  <div class="room-card">
+    <img src="images/room2.jpg" alt="Suite Room" style="width:100%; margin-bottom: 15px;">
+<h4>Executive Suite</h4>
+            <p>Spacious suite with premium amenities.</p>
+            <div class="rating">★★★★☆ (4.5/5)</div>
+        </div><br><br>
+  <div class="room-card">
+    <img src="images/room3.jpg" alt="Family Suite" style="width:100%;">
+            <h4>Family Suite</h4>
+            <p>Perfect for family vacations with extra space.</p>
+            <div class="rating">★★★★★ (4.9/5)</div>
+        </div><br><br>
+</div>
+
+<div class="content" id="services">
+    <h3>Our Services</h3>
+    <div class="services">
+        <div class="service-card">
+            <img src="images/spa.jpg" alt="Spa & Wellness">
+            <h4>Spa & Wellness</h4>
+            <p>Relax and rejuvenate with our luxurious spa treatments.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/restaurant.jpg" alt="Gourmet Dining">
+            <h4>Gourmet Dining</h4>
+            <p>Experience world-class cuisine prepared by expert chefs.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/gym.jpg" alt="Fitness Center">
+            <h4>Fitness Center</h4>
+            <p>Stay fit and active with our fully equipped gym.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/pool.jpg" alt="Swimming Pool">
+            <h4>Swimming Pool</h4>
+            <p>Enjoy a refreshing dip in our outdoor pool.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/room.jpg" alt="Room Service">
+            <h4>24/7 Room Service</h4>
+            <p>Order meals and services directly to your room at any time.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Luxury Stay Hotel. All rights reserved. | <a href="booking.html" style="color: #ffd700;">Book Your Stay</a></p>
+</footer>
+
+</body>
+</html>
+
+
